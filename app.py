@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, DevOps World! 🚀 — Deployed via AWS CodePipeline + CodeDeploy"
+    return "Hello,from Sakshi's CI/CD! ✅"
 
 if __name__ == "__main__":
     # Run on port 5000 so we don't need root privileges

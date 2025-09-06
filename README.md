@@ -19,6 +19,11 @@ Deployed to a single EC2 instance using CodeDeploy. Source: GitHub. Build: CodeB
 ## Region Note
 Use your region (e.g., `ap-south-1`) consistently across all services.
 
+## Demo CI/CD Proof
+![Pipeline Success](screenshots/pipeline_success.png)
+![App Running](screenshots/app_running.png)
+
+
 ## Cost Safety
 - Use `t2.micro`.
 - Delete resources when done (terminate EC2, delete pipeline/build/app).
